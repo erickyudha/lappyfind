@@ -1,0 +1,25 @@
+#usage-form {
+    height: 200px;
+    display: flex;
+    justify-content: center;
+}
+
+#usage-form .box {
+    margin: 0;
+    margin-top: -20px;
+}
+
+.usage-li {
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: 1.3em;
+    color: #28417e;
+    background-color: #fff;
+    border: none;
+}
+.usage-li:hover {
+    color: #4361ae;
+    font-weight: bold;
+    transition: 0.2s;
+    cursor: pointer;
+}

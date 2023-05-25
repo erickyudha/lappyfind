@@ -1,0 +1,21 @@
+nav {
+    width: 100vw;
+    background-color: rgba(255, 255, 255, 1);
+    padding: 0;
+    z-index: 10;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: row-reverse;
+    opacity: 0;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+
+}
+
+nav h1 {
+    margin: 0;
+    width: 200px;
+    text-align: center;
+    padding: 20px 30px;
+}

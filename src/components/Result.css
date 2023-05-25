@@ -1,0 +1,74 @@
+#result {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 500px;
+    margin-bottom: 100px;
+}
+
+#result > .box {
+    padding: 20px 50px 30px;
+}
+
+#result .content {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 20px;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+#result .price-prediction {
+    width: 90%;
+    background-color: #eee;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 2px;
+    padding: 15px 0 15px 30px;
+}
+
+.price-prediction span {
+    font-weight: bolder;
+    font-size: 3em;
+}
+ 
+#result .market-btns {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 15px;
+}
+
+.market-btns a {
+    display: grid;
+    gap: 20px;
+    padding: 8px 16px;
+    align-items: center;
+    font-weight: bold;
+    cursor: pointer;
+    border: solid 1px rgba(0, 0, 0, 0.3);
+}
+
+.market-btns img {
+    width: auto;
+    height: 32px;
+    justify-self: end;
+}
+
+.tokopedia:hover {
+    background-color: #82e187;
+}
+.shopee:hover {
+    background-color: #e29e74;
+}
+.blibli:hover {
+    background-color: #81abe3;
+}
+
+.footnote {
+    font-style: italic;
+    color: rgba(0, 0, 0, 0.363);
+}
