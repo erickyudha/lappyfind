@@ -7,7 +7,7 @@ export default function Hero() {
             <div className='hero-title'>
                 <h1 className='no-mp'>LAPPYFIND</h1>
                 <h2 className='no-mp'>Discover your perfect laptop today!</h2>
-                <a href='#form'>
+                <a href='#usage-form'>
                     <button className='btn-grad'>Find Now</button>
                 </a>
             </div>
