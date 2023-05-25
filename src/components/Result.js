@@ -27,7 +27,7 @@ export default function Result() {
         if (spec.ssd !== 0) result += `${spec.ssd}GB SSD `
         if (spec.hdd !== 0) result += `${spec.hdd}GB HDD `
         if (spec.graphic_card_gb !== 0) result += `${spec.graphic_card_gb}GB GPU `
-        if (spec.Touchscreem === 1) result += 'Touchscreen'
+        if (spec.Touchscreen === 1) result += 'Touchscreen'
 
         return result.replace(' ', '%20');
     }   
