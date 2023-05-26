@@ -8,6 +8,7 @@ export default function Result() {
     const [price, setPrice] = useState(0)
 
     function createQuery() {
+        let result = ''
         if (spec.processor_name === 0) result += 'Intel '
         else result += 'AMD '
 
