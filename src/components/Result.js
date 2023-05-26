@@ -8,7 +8,6 @@ export default function Result() {
     const [price, setPrice] = useState(0)
 
     function createQuery() {
-        let result = 'Laptop ';
         if (spec.processor_name === 0) result += 'Intel '
         else result += 'AMD '
 
@@ -23,7 +22,7 @@ export default function Result() {
             7: 'Core i9',
             8: 'Ryzen 9'
         }
-        result += `${P_MAP[spec.processor_name]} ${spec.ram_gb}GB RAM `
+        result += `${P_MAP[spec.processor_name]} ${spec.ram_gb}GB `
         if (spec.ssd !== 0) result += `${spec.ssd}GB SSD `
         if (spec.hdd !== 0) result += `${spec.hdd}GB HDD `
         if (spec.graphic_card_gb !== 0) result += `${spec.graphic_card_gb}GB GPU `
